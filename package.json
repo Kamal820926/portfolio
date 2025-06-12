@@ -1,0 +1,29 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@tailwindcss/vite": "^4.1.8",
+    "framer-motion": "^12.17.0",
+    "preact": "^10.26.5",
+    "prop-types": "^15.8.1",
+    "react-icons": "^5.5.0",
+    "react-parallax-tilt": "^1.7.297",
+    "react-router-dom": "^7.6.2",
+    "react-simple-typewriter": "^5.0.1",
+    "react-toastify": "^11.0.5",
+    "react-typing-effect": "^2.0.5",
+    "tailwindcss": "^4.1.8"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "vite": "^6.3.5"
+  }
+}
