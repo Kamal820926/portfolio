@@ -11,6 +11,14 @@ import green from '../../assets/Work1_logo/green.png';
 
 const projects = [
   {
+    title: 'Green Vagi (Vegetable Delivery App)',
+    description: 'A user-friendly mobile-first web application for ordering fresh, organic vegetables directly from local farms. Features include a dynamic product catalog, order tracking, and delivery scheduling, aiming to connect consumers with sustainable produce.',
+    technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe API', 'Tailwind CSS'],
+    image: green, // Using the imported image
+    link: 'https://greencart-eight-cyan.vercel.app/products', // Your specific link for Green Vagi
+  },
+    
+  {
     title: 'E-commerce Platform',
     description: 'A robust full-stack e-commerce application designed for seamless online shopping. Features include user authentication, comprehensive product listings, a fully functional shopping cart, and secure payment processing. Developed to provide a smooth buying and selling experience.',
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe API', 'Tailwind CSS'],
@@ -20,24 +28,18 @@ const projects = [
   {
     title: 'Online Course Selling Platform',
     description: 'A dedicated platform for instructors to create and sell online courses, and for students to browse and enroll. Includes features like course content management, video streaming integration, user dashboards for students and instructors, and secure payment handling.',
-    technologies: ['Next.js', 'Firebase', 'Stripe', 'Video.js', 'Tailwind CSS'],
+    technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe API', 'Tailwind CSS'],
     image: Online, // Using the imported image
     link: 'YOUR_ONLINE_COURSE_LIVE_DEMO_LINK_HERE', // Add your live demo link here
   },
   {
     title: 'Rental Villa Website',
     description: 'A modern and intuitive web application for Browse and booking luxury rental villas. Users can view high-quality images, check availability, filter properties by amenities, and submit booking inquiries. Designed for an engaging user experience.',
-    technologies: ['React', 'Next.js', 'Firebase', 'Mapbox API', 'Styled Components'],
+    technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe API', 'Tailwind CSS'],
     image: Villa,
     link: 'YOUR_VILLA_WEBSITE_LIVE_DEMO_LINK_HERE', // Add your live demo link here
   },
-  {
-    title: 'Green Vagi (Vegetable Delivery App)',
-    description: 'A user-friendly mobile-first web application for ordering fresh, organic vegetables directly from local farms. Features include a dynamic product catalog, order tracking, and delivery scheduling, aiming to connect consumers with sustainable produce.',
-    technologies: ['React Native (or React Web)', 'Node.js', 'PostgreSQL', 'Socket.IO', 'Leaflet.js'],
-    image: green, // Using the imported image
-    link: 'https://greencart-eight-cyan.vercel.app/products', // Your specific link for Green Vagi
-  }
+  
 ];
 
 const Work = () => {
